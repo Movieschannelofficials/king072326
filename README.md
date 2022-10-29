@@ -1,9 +1,26 @@
 <p align="center">
-  <img src="assets/lazyprincessbot.jpg" alt="Lazy Princess Logo">
+
+  <img src="https://telegra.ph/file/16834e41f2a8b5ad99650.jpg" alt="Movies Channel Official 🎭">
+
 </p>
+
 <h1 align="center">
-  <b> Lazy Princess BOT </b>
+
+  <b>file-filter-bot</b>
+
 </h1>
+
+<a href="https://t.me/allnewmovieintime">
+
+  <img src="https://img.shields.io/badge/Join-blue?logo=Telegram" width="150">
+
+[![Stars](https://img.shields.io/github/stars/malik7983/file-filter-bot?style=flat-square&color=orange)](https://github.com/Movieschannelofficials/Allnewmovieintime/stargazers)
+
+[![Forks](https://img.shields.io/github/forks/malik7983/file-filter-bot?style=flat-square&color=blue)](https://github.com/Movieschannelofficials/Allnewmovieintime/fork)
+
+[![Size](https://img.shields.io/github/repo-size/malik7983/file-filter-bot?style=flat-square&color=black)](https://github.com/Movieschannelofficials/Allnewmovieintime)   
+
+[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=110)](https://github.com/Movieschannelofficials/Allnewmovieintime)   
 
 
 ## Features
@@ -99,8 +116,7 @@ python3 bot.py
 [![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyPrincessSupport)
 [![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyDevelopers)
 
-## Credits 
-* [![LazyPrincess-Devs](https://img.shields.io/static/v1?label=LazyPrincess&message=devs&color=critical)](https://telegram.dog/LazyDevelopers)
+
 
 
 ## Thanks to 
@@ -111,7 +127,7 @@ python3 bot.py
 
 ### Note
 
-[Join Main Channel](https://telegram.dog/LazyDevelopers): 
+[Join Main Channel](https://t.me/allnewmovieintime): 
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
