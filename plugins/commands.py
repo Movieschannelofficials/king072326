@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/LazyDevelopers')
+                InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/allnewmovieintime')
             ],
             [
                 InlineKeyboardButton('🙆🏻 Help 🦾', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/LazyDevelopers')
+            InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/allnewmovieintime')
             ],[
             InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
@@ -62,12 +62,12 @@ async def start(client, message):
         try:
             invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
         except ChatAdminRequired:
-            logger.error("Hey Sona, Ek dfa check kr lo ki main Channel mei Add hu ya nhi...!")
+            logger.error("Hey Bro and sisters,Lets Click Start and Get Movies...!")
             return
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Sona, Please Join Updates Channel ", url=invite_link.invite_link
+                    "🤖 Bro and Sisters, Please Join Updates Channel ", url=invite_link.invite_link
                 )
             ]
         ]
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/LazyDevelopers')
+            InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/allnewmovieintime')
             ],[
             InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
@@ -294,7 +294,7 @@ async def delete(bot, message):
     if reply and reply.media:
         msg = await message.reply("Processing...⏳", quote=True)
     else:
-        await message.reply('Sona Jo File delete krna chahte ho us pr /delete ka reply kro !!', quote=True)
+        await message.reply('MillieReply to /delete on the file you want to delete !!', quote=True)
         return
 
     for file_type in ("document", "video", "audio"):
